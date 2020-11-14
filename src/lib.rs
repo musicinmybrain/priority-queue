@@ -85,6 +85,7 @@ extern crate serde_derive;
 mod iterators;
 mod pqueue;
 pub use crate::pqueue::PriorityQueue;
+pub use indexmap::Equivalent;
 
 #[cfg(test)]
 mod tests {
