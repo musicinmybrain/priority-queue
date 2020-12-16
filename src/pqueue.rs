@@ -549,7 +549,7 @@ where
                         *self.qp.get_unchecked_mut(*heap_pos) = pos;
                     }
                 }
-                self.heapify(pos);
+                self.heapify(parent(pos));
             }
         }
 
